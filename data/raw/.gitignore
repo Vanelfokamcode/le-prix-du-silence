@@ -1,0 +1,44 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+
+# Data — jamais committer les raw data
+data/raw/
+data/interim/
+data/processed/
+*.json
+*.csv
+*.zip
+*.parquet
+*.duckdb
+
+# dbt
+dbt_silence/target/
+dbt_silence/logs/
+dbt_silence/.user.yml
+
+# Dagster
+dagster_silence/.dagster/
+dagster_home/
+
+# Neo4j
+graph/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
