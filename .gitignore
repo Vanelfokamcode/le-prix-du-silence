@@ -1,3 +1,62 @@
+# Python
 venv/
-*.zip
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Données (On garde la structure mais pas les fichiers lourds)
+data/raw/*
+data/processed/*
+data/interim/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# DuckDB
 *.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+.duckdb_history
+
+# dbt
+dbt_silence/target/
+dbt_silence/dbt_packages/
+dbt_silence/logs/
+dbt_silence/dbt_modules/
+
+# Dagster (Persistence et Temp)
+.dagster/
+dagster_home/
+storage/
+*.tmp_dagster_home_*
+history/
+event_logs.db
+runs.db
+
+# Environnement & Secrets
+.env
+.venv
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

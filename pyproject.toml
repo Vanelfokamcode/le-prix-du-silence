@@ -1,0 +1,3 @@
+[tool.dagster]
+module_name = "dagster_silence.definitions"
+project_name = "le_prix_du_silence"

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: deputes
+      - name: groupes_politiques
+      - name: scrutins
+      - name: positions_vote
+      - name: fiches_lobbying
